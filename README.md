@@ -1,16 +1,6 @@
 # UvA RevealJS — Quarto Presentation Template
 
-A Quarto extension for creating academic presentations with University of Amsterdam branding, designed for international conferences.
-
-**Features**
-
-- UvA red (`#BC0031`) colour scheme throughout
-- Centred title slide with red accent rule
-- UvA wordmark logo in the slide footer
-- Red left-border heading style
-- Full-red section divider slides
-- Styled tables, code blocks, blockquotes, and callouts
-- Helper classes for two-column layouts, text sizing, and highlights
+A Quarto extension for creating academic presentations with University of Amsterdam branding.
 
 ---
 
@@ -157,7 +147,4 @@ quarto update flo1met/uva-presentation-template
 
 ---
 
-## License
-
-MIT
 
