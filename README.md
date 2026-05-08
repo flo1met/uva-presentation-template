@@ -19,7 +19,7 @@ A Quarto extension for creating academic presentations with University of Amster
 Run the following command inside your project folder:
 
 ```bash
-quarto add florianmetwaly/uva-presentation-template
+quarto add flo1met/uva-presentation-template
 ```
 
 This will install the extension into `_extensions/uva/` within your project.
@@ -31,7 +31,7 @@ This will install the extension into `_extensions/uva/` within your project.
 To start from the template (copies `template.qmd` into your project):
 
 ```bash
-quarto use template florianmetwaly/uva-presentation-template
+quarto use template flo1met/uva-presentation-template
 ```
 
 Or, after installing the extension manually, create a `.qmd` file with this YAML header:
@@ -152,7 +152,7 @@ template.qmd                    # starter template copied on `quarto use templat
 ## Updating the extension
 
 ```bash
-quarto update florianmetwaly/uva-presentation-template
+quarto update flo1met/uva-presentation-template
 ```
 
 ---
