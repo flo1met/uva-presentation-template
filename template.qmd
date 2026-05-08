@@ -1,0 +1,95 @@
+---
+title: "Presentation Title"
+subtitle: "Subtitle or Conference Name"
+author: "Author Name"
+institute: "University of Amsterdam"
+date: today
+date-format: "MMMM YYYY"
+
+format:
+  uva-revealjs:
+    footer: "Short title — Author Name | University of Amsterdam"
+
+execute:
+  echo: true
+  eval: false
+  warning: false
+  message: false
+
+editor: visual
+---
+
+# Section Title {.section-slide}
+
+## Slide Title
+
+Content goes here.
+
+- Bullet point one
+- Bullet point two
+- Bullet point three
+
+---
+
+## Two-Column Slide
+
+:::: {.columns}
+::: {.column width="50%"}
+Left column content
+:::
+::: {.column width="50%"}
+Right column content
+:::
+::::
+
+---
+
+## Code Slide
+
+```{r}
+# Example R code
+x <- 1:10
+mean(x)
+```
+
+---
+
+## Table Slide
+
+| Column A | Column B | Column C |
+|---|---|---|
+| Value 1 | Value 2 | Value 3 |
+| Value 4 | Value 5 | Value 6 |
+
+---
+
+## References {.smaller}
+
+- Author, A. (Year). Title. *Journal*.
+
+---
+
+## {.center-text}
+
+**Thank you!**
+
+author@uva.nl
+
+<br>
+
+:::: {.columns}
+::: {.column width="50%"}
+::: {.center-text .small-text}
+![](qr-placeholder.png){width=180px}
+
+Software / Package
+:::
+:::
+::: {.column width="50%"}
+::: {.center-text .small-text}
+![](qr-placeholder.png){width=180px}
+
+Paper / Preprint
+:::
+:::
+::::
